@@ -13,8 +13,9 @@
                 }
                 stage ('rename text') {
                      sh "mv modified modifiedNew"			
-		     git add . && git commit -am "comment"			
-   		     git push
+		     sh "git add ."
+		     sh "git commit -am 'comment'"			
+   		     sh "git push"
 		     
                 }
 			    
