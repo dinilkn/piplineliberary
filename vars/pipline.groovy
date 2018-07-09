@@ -12,7 +12,7 @@
 			 git url: 'https://github.com/dinilkn/jenkinSonarTestApp.git'
                 }
                 stage ('rename text') {
-                     sh "mv modifiedNew modified"			
+                     sh "mv newfile modified"			
 		    
 			
 			withCredentials([usernamePassword(credentialsId: 'de97785c-b80c-4e7d-8f05-60377dc48cde',
