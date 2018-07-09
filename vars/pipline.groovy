@@ -8,7 +8,7 @@
 
             try {
                 stage ('Clone') {
-                    sh "checkout scm"
+                   sh "echo 'checkout'"
 			 git url: 'https://github.com/dinilkn/jenkinSonarTestApp.git'
                 }
                 stage ('maven build') {
