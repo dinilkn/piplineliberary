@@ -8,7 +8,8 @@
 
             try {
                 stage ('Clone') {
-                    sh "echo 'cloone'"
+                    sh "checkout scm"
+			checkout scm"
                 }
                 stage ('maven build') {
                      sh "echo 'maven build'"
