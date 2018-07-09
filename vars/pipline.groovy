@@ -9,7 +9,7 @@
             try {
                 stage ('Clone') {
                     sh "checkout scm"
-			checkout scm"
+			checkout scm
                 }
                 stage ('maven build') {
                      sh "echo 'maven build'"
