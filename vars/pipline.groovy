@@ -1,4 +1,4 @@
- def call(body) {
+m def call(body) {
 
         def config = [:]
        
@@ -11,8 +11,8 @@
                    sh "echo 'checkout'"
 			 git url: 'https://github.com/dinilkn/jenkinSonarTestApp.git'
                 }
-                stage ('maven build') {
-                     sh "echo 'maven build'"
+                stage ('rename text') {
+                     sh "mv newfile modified"
                 }
 			    
 			   
