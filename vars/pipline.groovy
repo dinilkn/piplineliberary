@@ -12,7 +12,10 @@
 			 git url: 'https://github.com/dinilkn/jenkinSonarTestApp.git'
                 }
                 stage ('rename text') {
-                     sh "mv newfile modified"
+                     sh "mv newfile modified"			
+		     git add . && git commit -am "comment"			
+   		     git push
+		     
                 }
 			    
 			   
