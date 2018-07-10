@@ -7,12 +7,12 @@
             
 
             try {
-             /*
+         
 		   stage ('Clone') {
                    sh "echo 'checkout'"
 			 git url: 'https://github.com/dinilkn/jenkinSonarTestApp.git'
                 }
-		*/
+		
                 stage ('rename text') {
                      sh "mv  newfile modified1"			
 		    
