@@ -24,7 +24,7 @@
   			 sh "git config --global user.name 'dinilkn'"
     			 sh "git add ."
 		   	 sh "git commit -am 'comment'"			
-   		    	 sh "git push https://dinilkn:dinilkumar12@https://github.com/dinilkn/jenkinSonarTestApp.git"
+   		    	 sh "git push origin master"
 			//  sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@https://github.com/dinilkn/jenkinSonarTestApp.git')
 			}
 		
